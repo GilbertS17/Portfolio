@@ -1,0 +1,55 @@
+.main {
+  background-color: #151c2e;
+  color: white;
+  font-size: 16;
+  margin: 0px auto;
+  text-align: center;
+  font-family: "Exo 2";
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.title {
+  transition: 250ms;
+}
+
+.title:hover {
+  transition: 250ms;
+  color: #ff004d;
+}
+
+.nav-comp {
+  margin-top: 10px;
+}
+
+.nav-comp li a {
+  color: white;
+
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+  transition: 250ms;
+}
+
+.nav-comp li a:hover {
+  transition: 250ms;
+  color: #ff004d;
+}
+
+.home-container {
+  /* background-color: #ff004d; */
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.job {
+  color: #ff004d;
+}
