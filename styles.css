@@ -58,11 +58,36 @@
 .intro {
   padding-top: 30px;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .job {
   color: #ff004d;
+  margin-bottom: 40px;
+}
+
+.icons-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.icon {
+  color: #ff004d;
+  margin-right: 30px;
+  transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.2) rotate(10deg);
+  color: white;
+}
+
+.icon:active {
+  transform: scale(1.1) rotate(0deg);
 }
 
 .my-image {
