@@ -7,6 +7,8 @@
   font-family: "Exo 2";
 }
 
+/* Navbar */
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -42,14 +44,37 @@
   color: #ff004d;
 }
 
+/* Home Container */
+
 .home-container {
-  /* background-color: #ff004d; */
   width: 100%;
+  margin: auto;
   min-height: 500px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  padding-top: 30px;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .job {
   color: #ff004d;
+}
+
+.my-image {
+  padding-top: 30px;
+  max-height: 600px;
+  max-width: 600px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 100px;
+}
+
+/* About Container */
+
+.about-container {
+  padding: 50px;
 }
