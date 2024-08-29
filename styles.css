@@ -97,6 +97,7 @@
   max-width: 600px;
   border-bottom-left-radius: 200px;
   border-bottom-right-radius: 100px;
+  rotate: 15deg33;
 }
 
 /* About Container */
@@ -110,7 +111,7 @@
   color: #ff004d;
   font-weight: 550;
   font-size: 700;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .about-text {
@@ -133,6 +134,7 @@
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.6s ease, transform 0.6s ease;
+  margin-bottom: 30px;
 }
 
 .scroll-image {
@@ -153,4 +155,84 @@
 #image3 {
   max-width: 500px;
   /* margin: auto; */
+}
+
+/* Projects Container */
+
+.projects-container {
+  padding: 50px;
+}
+
+.project-card .card {
+  margin-bottom: 30px;
+  border: none; /* Remove card border for a cleaner look */
+  border-radius: 15px; /* Rounded corners for a modern feel */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card .card:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+}
+
+.project-card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+.project-card .card-body {
+  background-color: #232b3f;
+  padding: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  border: 0;
+}
+
+.proj-status {
+  color: #4caf50;
+}
+
+.proj-status-private {
+  color: red;
+}
+
+.project-card .card-title {
+  font-size: 24px;
+  color: #ff004d;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.project-card .card-text {
+  font-size: 16px;
+  color: white;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.card-footer {
+  padding: 0;
+  text-align: right;
+  border: 0;
+}
+
+.project-card .btn-primary {
+  background-color: #ff004d;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .btn-primary:hover {
+  background-color: #e60042; /* Slightly darker shade on hover */
 }
