@@ -111,12 +111,12 @@
   color: #ff004d;
   font-weight: 550;
   font-size: 700;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .about-text {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: left;
   width: 80%;
   margin: auto;
@@ -165,20 +165,20 @@
 
 .project-card .card {
   margin-bottom: 30px;
-  border: none; /* Remove card border for a cleaner look */
-  border-radius: 15px; /* Rounded corners for a modern feel */
+  border: none;
+  border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card .card:hover {
-  transform: translateY(-10px); /* Slight lift on hover */
+  transform: translateY(-10px);
 }
 
 .project-card .card-img-top {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  height: 200px; /* Set a fixed height for consistency */
-  object-fit: cover; /* Ensure the image covers the area */
+  height: 200px;
+  object-fit: cover;
 }
 
 .project-card .card-body {
@@ -234,5 +234,12 @@
 }
 
 .project-card .btn-primary:hover {
-  background-color: #e60042; /* Slightly darker shade on hover */
+  background-color: #e60042;
+}
+
+/* Contact Container */
+
+.contact-container {
+  background-color: #232b3f;
+  padding: 50px;
 }
