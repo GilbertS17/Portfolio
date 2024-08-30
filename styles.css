@@ -164,7 +164,7 @@
 }
 
 .project-card .card {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border: none;
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -242,4 +242,44 @@
 .contact-container {
   background-color: #232b3f;
   padding: 50px;
+}
+
+.contact-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Button styling */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Hidden by default */
+  background-color: #ff004d;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #e60047;
+}
+
+.back-to-top i {
+  vertical-align: middle;
 }

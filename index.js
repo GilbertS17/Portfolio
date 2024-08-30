@@ -36,3 +36,22 @@ toggleImageVisibility("image2", "text2");
 toggleImageVisibility("image3", "text3");
 toggleImageVisibility("image5", "text3");
 toggleImageVisibility("image4", "text1");
+
+// Function to show or hide the button
+function toggleBackToTopButton() {
+  const button = document.getElementById("back-to-top");
+  if (window.scrollY > 300) {
+    // Adjust the value to control when the button appears
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+}
+
+// Scroll event listener
+window.addEventListener("scroll", toggleBackToTopButton);
+
+// Click event listener to scroll back to the top
+document.getElementById("back-to-top").addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
